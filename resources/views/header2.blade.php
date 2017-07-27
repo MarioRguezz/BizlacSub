@@ -1,6 +1,6 @@
 <div style="position:absolute; z-index:200; background: #FFF; top: 0px; left:0px; right:0px; padding:20px; margin:0px;  border-bottom: 4px solid #A1A1A1;" class="col-sm-12 row">
   <div class="col-xs-4" >
-    <img src="../img/Icons/nuevosiconos/BEYOND2-56.png" width="200" height="45">
+    <img src="../img/bizlac/bizlac.jpg" width="200" height="45">
   </div>
     <?php
 
@@ -17,7 +17,7 @@
 	$apMaterno_usuario = $row_fetch_array['ApMaterno'];
     ?>
       <div class="col-xs-6 down" >
-    <!--  	<a class="menuOption NoShadow " href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/Seminarios/public/">PÁGINA PRINCIPAL</a>-->
+    <!--  	<a class="menuOption NoShadow " href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/BizlacWeb/public/">PÁGINA PRINCIPAL</a>-->
       </div>
       <div class="col-xs-2">
       <div class="dropdown">
@@ -28,7 +28,7 @@
         <ul class="dropdown-menu">
           <li>
             <a style="color:#009999 !important"
-              href="http://<?php echo $_SERVER['SERVER_NAME']?>/Seminarios/public/logout">
+              href="http://<?php echo $_SERVER['SERVER_NAME']?>/BizlacWeb/public/logout">
               CERRAR SESIÓN</a>
            </li>
         </ul>

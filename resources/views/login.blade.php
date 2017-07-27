@@ -31,22 +31,23 @@
 
 <body class="backgroundLogin">
 
-<div  class="col-md-12" style="background-color:#2F302E; margin-top:22%; height:280px;">
-  <div class="row">
-    <div class="col-md-1" >
+    <div class="col-xs-7">
+      <div class="row">
+        <img src="img/bizlac/bizlac.jpg" width="350px" style="margin-left: 35%; margin-top:100px;"  />
+      </div>
     </div>
-    <div class="col-md-3" style=" height:280px; margin-right:20px;">
-     <img src="img/Icons/logo.png" class="logologin" height="150px" />
-   </div>
-    <div class="col-md-2" style=" height:280px; margin-right:20px;">
+  <div class="col-xs-5" style="margin-top:100px;">
+      <div class="row">
+          <h1 class="grayTitle col-xs-12 col-md-4">SEMINARIO</h1><br>
+      </div>
+      <div class="row">
+          <h3 class="grayTitle col-xs-12 col-md-8">Bienvenido, ingrese usuario y password para entrar</h3>
+      </div>
       <div class="row">
           <!--Login-->
-          <div class="row">
-              <h1 class="titleLogin col-xs-12 col-md-12">SEMINARIO</h1><br>
-              <h3 class="Subtitlelogin col-xs-12 col-md-12" style="margin-top:-10px; margin-bottom:20px;">Bienvenido,ingrese usuario y password para entrar</h3>
-
-          <form id="login-form" action="{{url('/login')}}" method="post" class="col-xs-12 col-md-12 " role="form">
+          <form id="login-form" action="{{url('/login')}}" method="post" class="col-xs-12 col-md-8 " role="form">
               <div class="form-group">
+
                   @if($res==0)
                       <div class="alert alert-danger" align="center">
                           <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -68,52 +69,34 @@
                   @endif
 
 
-                  <input type="text" name="user" id="username" tabindex="1" class="form-control NoRadiusColorlogin" placeholder="Nombre de usuario" value="" required>
+                  <input type="text" name="user" id="username" tabindex="1" class="form-control NoRadiusBizlac" placeholder="Nombre de usuario" value="" required>
               </div>
               <div class="form-group ">
-                  <input type="password" name="pass" id="password" tabindex="2"  class="form-control NoRadiusColorlogin " placeholder="Password" required>
+                  <input type="password" name="pass" id="password" tabindex="2" class="form-control NoRadiusBizlac " placeholder="Password" required>
               </div>
-      </div>
-        </div>
-    </div>
-
-
-
-    <div class="col-md-2" style=" height:280px;">
-      <div class="form-group">
-        <div class="row containerregister" >
-          <div class="row">
-            <h4 class="whiteClass  NormalSizeWord col-xs-12 col-md-12"> ¿No estas registrado? Clic aquí para registrarse.</h4>
-          </div>
-            <div class="row">
-            <a class="form-control buttonLoginRegistro alignCenter " href="{{url('/usuario/registro')}}">REGISTRO</a>
-          </div>
-        </div>
-        <!--  <div class="row">
-              <div class="col-xs-12">
-                  <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control buttonLogin" value="COMENZAR">
+              <div class="form-group">
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control buttonLoginBizlac" value="COMENZAR">
+                      </div>
+                  </div>
               </div>
-          </div>-->
+          </form>
       </div>
       <div class="row">
-          <div class="col-md-12">
-          <a class="form-control buttonForget alignCenter" href="{{url('/password/reset')}}">¿Olvido su contraseña?</a>
+          <div class="col-md-8">
+          <a class="form-control buttonForgetBizlac alignCenter col-md-8" href="{{url('/password/reset')}}">¿Olvido su contraseña?</a>
           </div>
       </div>
       <div class="row">
-          <div class="col-md-12">
-            <input type="submit" name="login-submit" id="login-submit" tabindex="4"  class="form-control buttonLoginComenzar" value="COMENZAR">
+          <h4 class="whiteClass gray  NormalSizeWord col-xs-12 col-md-8"> ¿No estas registrado? Clic aquí para registrarse.</h4> <br>
+      </div>
+      <div class="row">
+          <div class="col-md-8">
+          <a class="form-control buttonRegisterBizlac alignCenter col-md-8" href="{{url('/usuario/registro')}}">REGISTRO</a>
           </div>
       </div>
-    </div>
-  </form>
-    <div class="col-md-3" >
-    </div>
-
-
   </div>
-
-</div>
 
 </body>
 </html>

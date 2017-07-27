@@ -84,7 +84,7 @@ body{
 
 body.backgroundLogin
 {
-	background-image:url(../img/backgrounds/building.jpg);
+	background-image:url(../img/bizlac/fondobizlac.png);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -582,6 +582,21 @@ input[type="file"] {
 	font-size: 18px;
 }
 
+
+
+.NoRadiusBizlac{
+	border:solid 0px #ccc;
+	height: 50px;
+	font-size: 18px;
+	width: 100%;
+	background-color: #E1E1E1;
+	border-radius: 0px;
+}
+
+
+
+
+
 .weightAddCurso{
 	width: 100%;
 }
@@ -594,6 +609,43 @@ height: 60px;
 border:solid 3px #FFF;
 border-radius: 0px;
 }
+
+
+.buttonLoginBizlac{
+background: #C5027F;
+color: white;
+font-weight: 400;
+font-size: 15px;
+height: 40px;
+border-radius: 0px;
+width: 100%;
+border: 0px;
+}
+
+.buttonForgetBizlac{
+background: #009999;
+color: white;
+font-weight: 400;
+font-size: 15px;
+height: 40px;
+border-radius: 0px;
+width: 100%;
+border: 0px;
+}
+
+
+.buttonRegisterBizlac{
+background: #00BAEE;
+color: white;
+font-weight: 400;
+font-size: 15px;
+height: 40px;
+border-radius: 0px;
+width: 100%;
+border: 0px;
+}
+
+
 
 
 .buttonForget{

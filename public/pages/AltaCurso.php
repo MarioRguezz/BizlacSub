@@ -246,7 +246,7 @@ if($accion == 'Nu3v@')
                    $mail->isHTML(true);                                  // Set email format to HTML
                    $mail->Subject = 'Here is the subject';
                    $mail->Body = 'Bienvenido al curso de Byond<b> ¡Desde tu navegador presiona el botón para quedar inscrito!</b> '.
-                       '<form action="http://189.211.207.173/Seminarios/public/validar" class="form-horizontal" method="post" enctype="multipart/form-data" target="_blank">'.
+                       '<form action="http://189.211.207.173/BizlacWeb/public/validar" class="form-horizontal" method="post" enctype="multipart/form-data" target="_blank">'.
                         '<input type="text" value=" '.$IDCurso.' " id="idCurso" name="idCurso">'.
                         '<input type="text" value="'.$arra[$i].'" id="email"name="email">'.
                       '<center> <button type="submit" class="elementoButton buttonTransparentBorder buttonAlta"> Ingresar Curso </button></center>'.
@@ -259,7 +259,7 @@ if($accion == 'Nu3v@')
                       // echo 'Message has been sent';
                    }
                }
-               //http://189.211.207.173/Seminarios/public/ http://localhost/Seminarios
+               //http://189.211.207.173/BizlacWeb/public/ http://localhost/BizlacWeb
            }
 
 						if(mysqli_query($conec,$Consulta))

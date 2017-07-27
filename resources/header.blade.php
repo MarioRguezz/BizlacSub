@@ -3,10 +3,10 @@
     <img src="{{url('/img/Icons/nuevosiconos/beyond.png')}}" width="40" height="40">
   </div>
     <div class="col-sm-2 down" >
-    	<a class="menuOption NoShadow " href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/Seminarios/public/">PÁGINA PRINCIPAL</a>
+    	<a class="menuOption NoShadow " href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/BizlacWeb/public/">PÁGINA PRINCIPAL</a>
     </div>
     <div class=" col-sm-4 down">
-        <a class="menuOption NoShadow col-sm-12 " href="http://<?php echo $_SERVER['SERVER_NAME']?>/Seminarios/public/logout">
+        <a class="menuOption NoShadow col-sm-12 " href="http://<?php echo $_SERVER['SERVER_NAME']?>/BizlacWeb/public/logout">
           CERRAR SESIÓN</a>
     </div>
 </div>
