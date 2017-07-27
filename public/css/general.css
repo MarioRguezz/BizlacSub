@@ -1,0 +1,164 @@
+.LabelEdit{
+	color: darkgray;
+	opacity: 0.5;
+	font-family: sans-serif;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+
+
+.tituloExtra{
+    color: white;
+    font-size: 20px;
+}
+
+.tituloPregunta{
+    width: 40%;
+    height: 32px;
+
+}
+
+.textArea{
+    width:84%;
+    height: 50px;
+}
+
+.textAreaExam{
+	width:100%;
+}
+
+.space {
+    margin-right: 2%;
+}
+.box{
+    margin-bottom: 3%;
+}
+
+.rightPosition{
+    float: right;
+    margin-right: 2%;
+}
+
+.leftPosition{
+    float: left;
+    margin-left: 2%;
+}
+
+.left{
+    margin-left: 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+.boxTop{
+    margin-top: 3%;
+}
+
+.text{
+    color: #FFF;
+}
+
+.large{
+    width: 50%;
+}
+
+.boxItem{
+    background-color: #2F302E;
+    color: #FFF;
+    border-width: 1px;
+		border-radius: 14px;
+    text-align: center;
+    padding: 10px;
+    display:block;
+    width:100%;;
+		margin-bottom: 10px;
+}
+
+.marco{
+    background-color: #616160;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+		color: #FFF;
+    padding: 10px;
+    width:100%;
+		border-radius: 14px;
+		margin-bottom: 10px;
+
+}
+
+.leftBox{
+    width: 40%;
+}
+
+.rightBox{
+    width: 40%;
+}
+
+.fullSize{
+    width: 100%;
+}
+.select {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 40%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.select:before {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+.select select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.contenedorpregunta{
+    border-bottom: white solid 1px;
+    padding:20px;
+    padding-bottom:40px;
+}
+
+.marginForceRight{
+    margin-right: 2% !important;
+}
+
+
+.fullSpace{
+	width: 100%;
+}
+
+
+.buttonDownload{
+	width:100px;
+	float:right;
+	margin-right: 20px;
+}
