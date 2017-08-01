@@ -1,6 +1,10 @@
 <div style="position:absolute; z-index:200; background: #FFF; top: 0px; left:0px; right:0px; padding:20px; margin:0px;  border-bottom: 4px solid #A1A1A1;" class="col-sm-12 row">
   <div class="col-xs-4" >
+<<<<<<< HEAD
     <img src="{{url('/img/bizlac/bizlac.png')}}" width="60" >
+=======
+    <img src="{{url('/img/bizlac/bizlac.jpg')}}" height="60">
+>>>>>>> 488bff2650c17beb41db6fdb8328ef0534074212
   </div>
     @if(Auth::user() != null)
       <div class="col-xs-6 down" >
