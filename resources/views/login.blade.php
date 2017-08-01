@@ -1,5 +1,4 @@
-
-        <!doctype html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -33,7 +32,7 @@
 
     <div class="col-xs-7">
       <div class="row">
-        <img src="img/bizlac/bizlac.jpg" width="350px" style="margin-left: 35%; margin-top:100px;"  />
+        <img src="img/bizlac/bizlac.png" width="350px" style="margin-left: 35%; margin-top:100px;"  />
       </div>
     </div>
   <div class="col-xs-5" style="margin-top:100px;">
@@ -68,8 +67,7 @@
                       </div>
                   @endif
 
-
-                  <input type="text" name="user" id="username" tabindex="1" class="form-control NoRadiusBizlac" placeholder="Nombre de usuario" value="" required>
+<input type="text" name="user" id="username" tabindex="1" class="form-control NoRadiusBizlac" placeholder="Nombre de usuario" value="" required>
               </div>
               <div class="form-group ">
                   <input type="password" name="pass" id="password" tabindex="2" class="form-control NoRadiusBizlac " placeholder="Password" required>
@@ -85,7 +83,7 @@
       </div>
       <div class="row">
           <div class="col-md-8">
-          <a class="form-control buttonForgetBizlac alignCenter col-md-8" href="{{url('/password/reset')}}">¿Olvido su contraseña?</a>
+          <a target="_blank" class="form-control buttonForgetBizlac alignCenter col-md-8" href="{{url('/password/reset')}}">¿Olvido su contraseña?</a>
           </div>
       </div>
       <div class="row">
@@ -93,7 +91,7 @@
       </div>
       <div class="row">
           <div class="col-md-8">
-          <a class="form-control buttonRegisterBizlac alignCenter col-md-8" href="{{url('/usuario/registro')}}">REGISTRO</a>
+          <a target="_blank"   class="form-control buttonRegisterBizlac alignCenter col-md-8" href="{{url('/usuario/registro')}}">REGISTRO</a>
           </div>
       </div>
   </div>
